@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #121418;
+    color: #ffffff;
+    scroll-behavior: smooth ;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #0b0c10;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #de9b35 ;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+font-size: 1.5rem;
+letter-spacing: 2px;
+}
+
+.logo span{
+    color: #de9b35;
+}
+
+.navegacao a:hover {
+    color: #de9b35;
+}
+
+/* Banner Principal */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('https://unsplash.com') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.hero-conteudo h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+
+.hero-conteudo p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    color: #cccccc;
+}
+
+#btn-jogar {
+    background-color: #de9b35;
+    color: #000000;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background 0.3s, transform 0.2s;
+}
+
+#btn-jogar:hover {
+    background-color: #ffb443;
+    transform: scale(1.05);
+}
+
+/* Seção de Novidades */
+.novidades-secao {
+    padding: 80px 0;
+    background-color: #1a1d24;
+}
+
+.novidades-secao h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #de9b35;
+}
+
+.cards-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #121418;
+    border-left: 4px solid #de9b35;
+    padding: 25px;
+    flex: 1;
+    min-width: 280px;
+    border-radius: 4px;
+}
+
+.card h4 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #aaaaaa;
+    line-height: 1.6;
+}
+
+/* Seção Cadastro */
+.cadastro-secao {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.cadastro-secao h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.cadastro-secao p {
+    color: #cccccc;
+    margin-bottom: 30px;
+}
+
+#form-news {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#form-news input {
+    padding: 15px;
+    width: 300px;
+    border: 1px solid #333;
+    background-color: #1a1d24;
+    color: #fff;
+    border-radius: 4px;
+}
+
+#form-news button {
+    background-color: #de9b35;
+    border: none;
+    padding: 0 30px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#form-news button:hover {
+    background-color: #ffb443;
+}
+
+.escondido {
+    display: none;
+}
+
+#mensagem-sucesso {
+    color: #4caf50;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    background-color: #0b0c10;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #666;
+    border-top: 1px solid #222;
+}
+
+
+
